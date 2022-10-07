@@ -1,0 +1,1714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="icon" href="./assets/img/Logo/logo_github.png" type="image/gif" />
+    <title>Github Shop</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <!-- <==== Header ====> -->
+      <header class="header">
+        <div class="grid wide">
+          <nav class="nav hide-on-mobile-tablet">
+            <ul class="nav__lists">
+              <!-- Separate: Phân cách -->
+              <li class="nav__item show--lists nav--separate nav__item--bold">
+                Download source code!
+
+                <!-- ==== Header QR ==== -->
+                <div class="header__qr">
+                  <img src="./assets/img/QR/qrcode.png" alt="QR Code" class="header__qr-img btn--no-hover" />
+                  <div class="header__qr--github">
+                    <a href="https://github.com/" class="header__qr--github-link">
+                      <img src="./assets/img/Github/GitHub.jpg" alt="GitHub" class="header__qr--github-img" />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav__item btn--no-hover">
+                <span class="btn--no-hover">Kết nối</span>
+                <a href="https://www.facebook.com/LuanT85" class="nav__icon-link">
+                  <span class="nav__icon iconify" data-icon="akar-icons:facebook-fill"></span>
+                </a>
+
+                <a href="https://github.com/Luan-Thanh/Github-Shop" class="nav__icon-link">
+                  <span class="nav__icon iconify" data-icon="akar-icons:github-fill"></span>
+                </a>
+              </li>
+            </ul>
+            <ul class="nav__lists">
+              <li class="nav__item show--lists">
+                <a href="#" class="nav__item-link">
+                  <span class="nav__icon iconify" data-icon="pepicons:bell"></span>
+                  Thông Báo</a>
+
+                <!-- ==== Notify ==== -->
+                <div class="header__notify show--lists">
+                  <header class="header__notify-top btn--no-hover">
+                    <h3>Thông Báo Mới Nhất?</h3>
+                  </header>
+                  <ul class="header__notify-lists">
+                    <li class="header__notify-item">
+                      <a href="https://thegithubshop.com/collections/collectibles/products/octocat-figurine"
+                        class="header__notify-link">
+                        <img src="./assets/img/Notify/notify1.png" alt="Octocat Figurine" class="header__notify-img" />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">
+                            Octocat Figurine
+                          </span>
+                          <span class="header__notify-desc">
+                            Trong nhiều năm, Octocat đã bị mắc kẹt trong lĩnh
+                            vực hai chiều — nhưng không còn nữa! Bây giờ cô ấy
+                            đang bò ra khỏi máy tính xách tay của bạn và đặt lên
+                            bàn của bạn như một bức tượng nhỏ 5 inch bằng nhựa
+                            vinyl.
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="header__notify-item">
+                      <a href="https://thegithubshop.com/collections/housewares/products/invertocat-mug-3-0?variant=39681324351597"
+                        class="header__notify-link">
+                        <img src="./assets/img/Notify/notify2.jpg" alt="Invertocat 3.0 Mug"
+                          class="header__notify-img" />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">
+                            Invertocat 3.0 Mug
+                          </span>
+                          <span class="header__notify-desc">
+                            Đã đến lúc không dùng cốc cũ nữa và cập nhật lên cốc
+                            Invertocat 3.0 hoàn toàn mới. Liên tục giao tất cả
+                            cà phê, trà và ca cao nóng mà bạn cần để giao cho
+                            đợt phát hành tiếp theo. Chứa 16 oz và có tất cả màu
+                            đen hoặc đen trắng với Invertocat được khắc laser.
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="header__notify-item">
+                      <a href="https://thegithubshop.com/collections/stickers/products/octicon-sticker-packs"
+                        class="header__notify-link">
+                        <img src="./assets/img/Notify/notify3.png" alt="Đề can Octicon" class="header__notify-img" />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">
+                            Đề can Octicon
+                          </span>
+                          <span class="header__notify-desc">
+                            Giờ đây, bạn có thể hiển thị các biểu tượng của
+                            GitHub trên máy tính xách tay của mình hoặc bất kỳ
+                            thứ gì khác mà bạn muốn tạo ra với một số Octicons.
+                            Đường kính của miếng dán vinyl là 2,2 inch và chúng
+                            có thể dễ dàng phù hợp với hầu hết các bề mặt.
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="header__notify-item">
+                      <a href="https://thegithubshop.com/collections/housewares/products/invertocat-coasters-2-0"
+                        class="header__notify-link">
+                        <img src="./assets/img/Notify/notify4.jpg" alt="Invertocat 2.0 Coasters"
+                          class="header__notify-img" />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">
+                            Invertocat 2.0 Coasters
+                          </span>
+                          <span class="header__notify-desc">
+                            Cung cấp cho bàn của bạn không gì khác ngoài những
+                            thứ tốt nhất và nâng cấp trò chơi lót ly của bạn với
+                            tất cả những chiếc Đế lót ly Invertocat 2.0 mới thân
+                            thiện với môi trường này. Bao gồm bốn đế lót ly khắc
+                            laser với đế lót ly.
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="header__notify-item">
+                      <a href="https://thegithubshop.com/collections/hoodies/products/invertocat-hoodie"
+                        class="header__notify-link">
+                        <img src="./assets/img/Notify/notify5.jpg" alt="Invertocat Hoodie" class="header__notify-img" />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">
+                            Invertocat Hoodie
+                          </span>
+                          <span class="header__notify-desc">
+                            Đôi khi việc viết mã đòi hỏi phải làm việc trong môi
+                            trường lạnh. Thường rất khó để tìm thấy những đồ vật
+                            có thể giúp chống lại cái lạnh tê tái đó. Chắc chắn,
+                            bạn có thể đeo găng tay cụt ngón hoặc mặc áo len,
+                            nhưng tại sao lại chọn những bộ quần áo khiến bạn
+                            trông như không thể có ngón tay hoặc tay áo. Giá như
+                            ai đó tạo ra một lớp che phủ cơ thể bằng một loại
+                            thiết bị "mũ trùm đầu" để che đầu bạn…
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="header__notify-item">
+                      <a href="https://thegithubshop.com/collections/stickers/products/octocat-laptop-decals"
+                        class="header__notify-link">
+                        <img src="./assets/img/Notify/notify6.png" alt="Đề can máy tính xách tay Octocat"
+                          class="header__notify-img" />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">
+                            Đề can máy tính xách tay Octocat
+                          </span>
+                          <span class="header__notify-desc">
+                            Mona ở đây để tiết kiệm thời gian — và cứu máy tính
+                            xách tay của bạn khỏi bị lẫn vào. Hãy chọn trong số
+                            hai thiết kế lấy cảm hứng từ trò chơi: "Boxing Mona"
+                            sẵn sàng hoàn thành nhiệm vụ chỉ với một cú đấm và
+                            "Adventure Mona" dẫn đầu một cách đáng sợ đến con
+                            tàu tiếp theo của cô ấy.
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="header__notify-item">
+                      <a href="https://thegithubshop.com/collections/headwear/products/invertocat-beanie-2-0?variant=39681333690477"
+                        class="header__notify-link">
+                        <img src="./assets/img/Notify/notyfi7.jpg" alt="Invertocat 2.0 Beanie"
+                          class="header__notify-img" />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">
+                            Invertocat 2.0 Beanie
+                          </span>
+                          <span class="header__notify-desc">
+                            Giữ ấm đầu của bạn và dòng mã luôn trôi chảy với
+                            Invertocat 2.0 Beanie được cập nhật với ba màu mới
+                            và một thẻ in phồng hoàn toàn mới. Mặc nó có dây
+                            quấn hoặc không nhồi bông, những chiếc quần lót
+                            waffle có trọng lượng trung bình này có hai lớp
+                            nhưng thoáng khí để bảo vệ đôi tai octocat đó trong
+                            mọi thời tiết.
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="header__notify-item">
+                      <a href="https://thegithubshop.com/collections/housewares/products/octocookie-cutters"
+                        class="header__notify-link">
+                        <img src="./assets/img/Notify/notyfi8.jpg" alt="Máy cắt Octocookie"
+                          class="header__notify-img" />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">
+                            Máy cắt Octocookie
+                          </span>
+                          <span class="header__notify-desc">
+                            Nhìn này, chúng tôi có thể đã xóa tất cả cookie của
+                            mình, nhưng điều đó không có nghĩa là chúng tôi có
+                            thể xóa cookie của bạn. Trên thực tế, bây giờ chúng
+                            tôi có thể giúp bạn nướng bánh của riêng mình với
+                            những chiếc Máy cắt Octocookie hoàn toàn mới này!
+                            Làm nóng lò nướng trước và sẵn sàng cho một ít bánh
+                            quy lên mặt bạn. Bao gồm một đường kính 3 "và một
+                            đường kính 4" thép mạ thiếc an toàn thực phẩm. Made
+                            in USA
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <footer class="header__notify-bottom">
+                    <a href="" class="header__notify-bottom-btn">Xem Tất Cả</a>
+                  </footer>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__item-link">
+                  <span class="nav__icon iconify" data-icon="ic:round-help-outline"></span>
+                  Trợ Giúp</a>
+              </li>
+
+              <!-- No Login -->
+              <li class="nav__item nav__item--bold nav--separate" onclick="modals() , resgister()">
+                Đăng Ký
+              </li>
+              <li class="nav__item nav__item--bold" onclick="modals(), login()">
+                Đăng Nhập
+              </li>
+
+              <!-- Has Login -->
+              <!-- <li class="nav__item nav__user">
+                <img
+                  src="./assets/img/User/user1.png"
+                  alt="Avata"
+                  class="nav__user-img nav--separate"
+                />
+                <span class="nav__item-user-name nav__item--bold"
+                  >Luân Thành</span
+                >
+
+                <ul class="nav__user-menu">
+                  <li class="nav__user-menu-item">
+                    <a href="#">Tài khoản của tôi</a>
+                  </li>
+
+                  <li class="nav__user-menu-item">
+                    <a href="#">Đại chỉ của tôi</a>
+                  </li>
+
+                  <li class="nav__user-menu-item">
+                    <a href="#">Đơn mua hàng</a>
+                  </li>
+
+                  <li class="nav__user-menu-item nav__user-menu-item--separate">
+                    <a href="#">Đăng xuất</a>
+                  </li>
+                </ul>
+              </li> -->
+            </ul>
+          </nav>
+
+          <!-- Header with search -->
+          <div class="header-with-search">
+            <div class="header__list">
+              <span class="header__list-icon iconify" data-icon="fluent:list-16-filled"></span>
+            </div>
+            <div class="header__logo">
+              <a href="#" class="header__logo-home">
+                <svg fill="#fff" class="header__logo-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106 34.133">
+                  <g transform="translate(-193.064 -393.158)">
+                    <path
+                      d="M210.562,393.158a17.5,17.5,0,0,0-5.532,34.1c.874.162,1.2-.38,1.2-.842,0-.417-.016-1.8-.024-3.258-4.868,1.059-5.9-2.065-5.9-2.065a4.634,4.634,0,0,0-1.943-2.561c-1.588-1.086.12-1.064.12-1.064a3.679,3.679,0,0,1,2.682,1.8,3.725,3.725,0,0,0,5.092,1.454,3.723,3.723,0,0,1,1.111-2.34c-3.887-.443-7.973-1.943-7.973-8.648a6.773,6.773,0,0,1,1.8-4.7,6.289,6.289,0,0,1,.17-4.631s1.47-.47,4.813,1.794a16.592,16.592,0,0,1,8.763,0c3.34-2.264,4.807-1.794,4.807-1.794a6.282,6.282,0,0,1,.172,4.631,6.76,6.76,0,0,1,1.8,4.7c0,6.721-4.094,8.2-7.99,8.634a4.182,4.182,0,0,1,1.187,3.24c0,2.341-.02,4.226-.02,4.8,0,.466.315,1.011,1.2.839a17.5,17.5,0,0,0-5.542-34.1Z"
+                      transform="translate(0 0)" fill-rule="evenodd"></path>
+                    <g transform="translate(234.728 399.893)">
+                      <path
+                        d="M297.717,426.865c2.678,0,4.172-1.24,4.172-3.045,0-2.086-1.945-2.509-2.847-2.707l-3.468-.733c-1.832-.395-5.892-1.24-5.892-5.582,0-3.665,3.073-6.09,7.7-6.09,4.793,0,7.641,2.425,7.725,6.062H301.3c-.141-2.115-1.748-3.129-4.088-3.129-2.368,0-3.637,1.043-3.637,2.65,0,1.974,2.058,2.368,3.214,2.622l3.524.7c2.989.592,5.526,2.256,5.526,5.808,0,4.088-3.271,6.4-8.176,6.4-5.385,0-8.374-2.763-8.4-6.682h3.806C293.178,425.54,294.757,426.865,297.717,426.865Z"
+                        transform="translate(-289.259 -408.708)"></path>
+                      <path
+                        d="M331.439,408.708h3.5v8.6h.225a5.244,5.244,0,0,1,4.962-2.989c3.411,0,5.159,2.453,5.159,6.146v9.078h-3.524v-8.712c0-2.425-1.127-3.552-3.073-3.552-2.312,0-3.75,1.748-3.75,4.314v7.95h-3.5Z"
+                        transform="translate(-313.17 -408.708)"></path>
+                      <path
+                        d="M373.491,421.662c4.4,0,7.33,3.158,7.33,7.781,0,4.567-2.932,7.725-7.33,7.725-4.426,0-7.359-3.158-7.359-7.725C366.132,424.848,369.064,421.662,373.491,421.662Zm-.028,12.546c2.368,0,3.778-1.861,3.778-4.821,0-2.876-1.381-4.765-3.778-4.765-2.34,0-3.778,1.861-3.778,4.793S371.094,434.208,373.463,434.208Z"
+                        transform="translate(-332.837 -416.051)"></path>
+                      <path
+                        d="M406.336,421.944l.4,2.707h.225a5.239,5.239,0,0,1,4.99-2.989c3.863,0,6.259,2.989,6.259,7.725,0,4.849-2.538,7.781-6.287,7.781a5.016,5.016,0,0,1-4.962-3.017h-.225V441.6h-3.5V421.944Zm.4,8.176a3.85,3.85,0,0,0,3.947,4.116c2.566,0,3.947-1.973,3.947-4.877,0-3.1-1.551-4.737-3.891-4.737a3.926,3.926,0,0,0-4,4.116Z"
+                        transform="translate(-353.87 -416.051)"></path>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </div>
+
+            <div class="header__search hide-on-mobile">
+              <div class="header__search-input-wrap">
+                <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm" />
+
+                <!-- Search history -->
+                <div class="header__search-history">
+                  <h3 class="header__search-history-heading">
+                    Lịch sử tìm kiếm trong Github Shop
+                  </h3>
+
+                  <ul class="header__search-history-list">
+                    <li class="header__search-history-item">
+                      <a href="#">Sách hoạt động GitHub</a>
+                    </li>
+
+                    <li class="header__search-history-item">
+                      <a href="#">Octoplush</a>
+                    </li>
+
+                    <li class="header__search-history-item">
+                      <a href="#">Áo phông Universe 2021</a>
+                    </li>
+
+                    <li class="header__search-history-item">
+                      <a href="#">Bức tượng Tentocat</a>
+                    </li>
+
+                    <li class="header__search-history-item">
+                      <a href="#">Sticker phát sáng trong tối</a>
+                    </li>
+
+                    <li class="header__search-history-item">
+                      <a href="#">Mũ invertocat</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="header__select">
+                <span class="header__select-label hide-on-mobile-tablet"> Trong shop</span>
+                <span class="header__select-icon iconify" data-icon="ep:arrow-down-bold"></span>
+
+                <ul class="header__search-option">
+                  <li class="header__search-option-item">
+                    <span class="header__search-option-status">Trong shop</span>
+                    <span class="header__search-option-icon iconify option-icon--active"
+                      data-icon="emojione-v1:left-check-mark"></span>
+                  </li>
+
+                  <li class="header__search-option-item">
+                    <span class="header__search-option-status">Ngoài shop</span>
+                    <span class="header__search-option-icon iconify" data-icon="emojione-v1:left-check-mark"></span>
+                  </li>
+                </ul>
+              </div>
+
+              <button class="header__search-btn">
+                <span class="header__search-btn-icon iconify" data-icon="ic:round-search"></span>
+              </button>
+            </div>
+
+            <!-- Header Cart -->
+            <div class="header__cart">
+              <div class="header__cart-wrap show--lists">
+                <span class="header__cart-icon iconify" data-icon="heroicons-solid:shopping-cart"></span>
+                <span class="header__cart-notify">8</span>
+
+                <!-- No cart: header__cart-list--no-cart -->
+                <div class="header__cart-list">
+                  <img src="./assets/img/Cart/no-cart/no_cart.png" alt="Chưa có sản phẩm"
+                    class="header__cart-no-cart-img" />
+
+                  <span class="header__cart-list--no-cart-msg">Giỏ Hàng Của Bạn Trống Kìa...</span>
+
+                  <h4 class="header__cart-heading">Sản phẩm đã thêm!</h4>
+                  <ul class="header__cart-list-items">
+                    <!-- Cart item -->
+                    <li class="header__cart-item">
+                      <img src="./assets/img/Cart/has-cart/has_cart1.png" alt="Tượng tô màu Blanktocat"
+                        class="header__cart-img" />
+                      <div class="header__cart-item-info">
+                        <div class="header__cart-item-head">
+                          <h5 class="header__cart-item-name">
+                            Tượng tô màu Blanktocat
+                          </h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">1.260.000 VND</span>
+                            <span class="header__cart-item-multip">x</span>
+                            <span class="header__cart-item-qnt">2</span>
+                          </div>
+                        </div>
+
+                        <div class="header__cart-item-body">
+                          <span class="header__cart-item-desc">Phân loại hàng: Vàng</span>
+                          <span class="header__cart-item-remove">Xóa</span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="header__cart-item">
+                      <img src="./assets/img/Cart/has-cart/has_cart2.png" alt="Sách hoạt hộng Github"
+                        class="header__cart-img" />
+                      <div class="header__cart-item-info">
+                        <div class="header__cart-item-head">
+                          <h5 class="header__cart-item-name">
+                            Sách hoạt hộng Github
+                          </h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">160.800 VND</span>
+                            <span class="header__cart-item-multip">x</span>
+                            <span class="header__cart-item-qnt">1</span>
+                          </div>
+                        </div>
+
+                        <div class="header__cart-item-body">
+                          <span class="header__cart-item-desc">Phân loại hàng: Vàng</span>
+                          <span class="header__cart-item-remove">Xóa</span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="header__cart-item">
+                      <img src="./assets/img/Cart/has-cart/has_cart3.jpg" alt="Hubot Figurine"
+                        class="header__cart-img" />
+                      <div class="header__cart-item-info">
+                        <div class="header__cart-item-head">
+                          <h5 class="header__cart-item-name">Hubot Figurine</h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">690.000 VND</span>
+                            <span class="header__cart-item-multip">x</span>
+                            <span class="header__cart-item-qnt">1</span>
+                          </div>
+                        </div>
+
+                        <div class="header__cart-item-body">
+                          <span class="header__cart-item-desc">Phân loại hàng: Vàng</span>
+                          <span class="header__cart-item-remove">Xóa</span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="header__cart-item">
+                      <img src="./assets/img/Cart/has-cart/has_cart4.png" alt="Áo phông tay dài Octocat 2.0"
+                        class="header__cart-img" />
+                      <div class="header__cart-item-info">
+                        <div class="header__cart-item-head">
+                          <h5 class="header__cart-item-name">
+                            Áo phông tay dài Octocat 2.0
+                          </h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">460.000 VND</span>
+                            <span class="header__cart-item-multip">x</span>
+                            <span class="header__cart-item-qnt">6</span>
+                          </div>
+                        </div>
+
+                        <div class="header__cart-item-body">
+                          <span class="header__cart-item-desc">Phân loại hàng: Vàng</span>
+                          <span class="header__cart-item-remove">Xóa</span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="header__cart-item">
+                      <img src="./assets/img/Cart/has-cart/has_cart5.png" alt="GitHub YubiKey"
+                        class="header__cart-img" />
+                      <div class="header__cart-item-info">
+                        <div class="header__cart-item-head">
+                          <h5 class="header__cart-item-name">GitHub YubiKey</h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">1.200.000 VND</span>
+                            <span class="header__cart-item-multip">x</span>
+                            <span class="header__cart-item-qnt">2</span>
+                          </div>
+                        </div>
+
+                        <div class="header__cart-item-body">
+                          <span class="header__cart-item-desc">Phân loại hàng: Vàng</span>
+                          <span class="header__cart-item-remove">Xóa</span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="header__cart-item">
+                      <img src="./assets/img/Cart/has-cart/has_cart6.png" alt="Cốc Invertocat"
+                        class="header__cart-img" />
+                      <div class="header__cart-item-info">
+                        <div class="header__cart-item-head">
+                          <h5 class="header__cart-item-name">Cốc Invertocat</h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">350.000 VND</span>
+                            <span class="header__cart-item-multip">x</span>
+                            <span class="header__cart-item-qnt">4</span>
+                          </div>
+                        </div>
+
+                        <div class="header__cart-item-body">
+                          <span class="header__cart-item-desc">Phân loại hàng: Vàng</span>
+                          <span class="header__cart-item-remove">Xóa</span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="header__cart-item">
+                      <img src="./assets/img/Cart/has-cart/has_cart7.png" alt="Invertocat Hoodie"
+                        class="header__cart-img" />
+                      <div class="header__cart-item-info">
+                        <div class="header__cart-item-head">
+                          <h5 class="header__cart-item-name">
+                            Invertocat Hoodie
+                          </h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">1.200.000 VND</span>
+                            <span class="header__cart-item-multip">x</span>
+                            <span class="header__cart-item-qnt">4</span>
+                          </div>
+                        </div>
+
+                        <div class="header__cart-item-body">
+                          <span class="header__cart-item-desc">Phân loại hàng: Vàng</span>
+                          <span class="header__cart-item-remove">Xóa</span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="header__cart-item">
+                      <img src="./assets/img/Cart/has-cart/has_cart8.png" alt="Tạp chí Mona và Hubot"
+                        class="header__cart-img" />
+                      <div class="header__cart-item-info">
+                        <div class="header__cart-item-head">
+                          <h5 class="header__cart-item-name">
+                            Tạp chí Mona và Hubot
+                          </h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">450.000 VND</span>
+                            <span class="header__cart-item-multip">x</span>
+                            <span class="header__cart-item-qnt">1</span>
+                          </div>
+                        </div>
+
+                        <div class="header__cart-item-body">
+                          <span class="header__cart-item-desc">Phân loại hàng: Vàng</span>
+                          <span class="header__cart-item-remove">Xóa</span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <button class="header__cart-view-cart btn btn--primary">
+                    Xem giỏ hàng
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <ul class="header__sort-bar">
+            <li class="header__sort-item">
+              <a href="#" class="header__sort-link">Liên quan
+              </a>
+              <div class="line"></div>
+            </li>
+            <li class="header__sort-item">
+              <a href="#" class="header__sort-link active">Mới nhất</a>
+              <div class="line"></div>
+            </li>
+            <li class="header__sort-item">
+              <a href="#" class="header__sort-link">Bán chạy</a>
+              <div class="line"></div>
+            </li>
+            <li class="header__sort-item">
+              <a href="#" class="header__sort-link header__sort-price">Giá
+                <div class="header__sort-icon">
+                  <span class="iconify" data-icon="ep:arrow-up-bold"></span>
+                  <span class="iconify" data-icon="ep:arrow-down-bold"></span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </header>
+
+      <!-- <==== Container ====> -->
+      <div class="app__container">
+        <div class="grid wide">
+          <div class="grid__row app__content">
+            <div class="grid__column-2">
+              <nav class="category">
+                <h3 class="category__heading">
+                  <span class="category__heading-icon iconify" data-icon="fa-solid:list-ul"></span>
+                  Danh mục
+                </h3>
+
+                <!-- category-item--active: arrow right -->
+                <ul class="category-list">
+                  <li class="category-item">
+                    <a href="#" class="category-item__link">Nhãn dán</a>
+                  </li>
+
+                  <li class="category-item">
+                    <a href="#" class="category-item__link">Sưu tầm</a>
+                  </li>
+
+                  <li class="category-item">
+                    <a href="#" class="category-item__link">Đồ gia dụng</a>
+                  </li>
+
+                  <li class="category-item">
+                    <a href="#" class="category-item__link">Áo phông</a>
+                  </li>
+
+                  <li class="category-item">
+                    <a href="#" class="category-item__link">Áo hoodie</a>
+                  </li>
+
+                  <li class="category-item">
+                    <a href="#" class="category-item__link">Mũ nón</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="grid__column-10">
+              <div class="home-filter hide-on-mobile-tablet">
+                <span class="home-filter__laybel">Sắp xếp theo</span>
+                <button class="btn home-filter__btn">Phổ biến</button>
+                <button class="btn home-filter__btn home-filter__btn2">
+                  Mới nhất
+                </button>
+                <button class="btn home-filter__btn">Bán chạy</button>
+
+                <div class="select-input">
+                  <span class="select-input__label">Giá</span>
+                  <span class="select-input__icon iconify" data-icon="ep:arrow-down-bold"></span>
+
+                  <ul class="select-input__list">
+                    <li class="select-input__item select-input__item-check">
+                      <a href="" class="select-input__link">Nổi bật </a>
+                      <span class="select-input__check iconify" data-icon="emojione-v1:left-check-mark"></span>
+                    </li>
+
+                    <li class="select-input__item">
+                      <a href="" class="select-input__link">Bán chạy</a>
+                    </li>
+
+                    <li class="select-input__item">
+                      <a href="" class="select-input__link">% Giá</a>
+                    </li>
+
+                    <li class="select-input__item">
+                      <a href="" class="select-input__link">Giá cao đến thấp</a>
+                    </li>
+
+                    <li class="select-input__item">
+                      <a href="" class="select-input__link">Giá thấp đến cao</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="home-filter__page">
+                  <span class="home-filter__page-num">
+                    <span class="home-filter__page-current">1</span>
+                    /15
+                  </span>
+
+                  <div class="home-filter__page-control">
+                    <a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
+                      <span class="home-filter__page-icon iconify" data-icon="ep:arrow-left-bold"></span>
+                    </a>
+
+                    <a href="" class="home-filter__page-btn">
+                      <span class="home-filter__page-icon iconify" data-icon="ep:arrow-right-bold"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="home-product">
+                <div class="grid__row">
+                  <!-- Product item -->
+                  <div class="grid__column-10-3 grid__column-10-2">
+                    <a href="#" class="home-product-item">
+                      <div class="home-product-item__img" style="
+                          background-image: url(https://cdn.shopify.com/s/files/1/0051/4802/products/TShirt_x-ray-tocat_882x882.jpg?v=1633447927);
+                        "></div>
+
+                      <h4 class="home-product-item__name">
+                        Áo phông Xraytocat | Github / Halloween với Xraytocat /
+                        Size S - L
+                      </h4>
+
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">690.000 VND</span>
+
+                        <span class="home-product-item__price-current">
+                          345.000 VND
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like home-product-item__like-liked">
+                          <span class="home-product-item__like-empty iconify" data-icon="bi:heart"></span>
+                          <span class="home-product-item__like-fill iconify" data-icon="noto:red-heart"></span>
+                        </span>
+
+                        <div class="home-product-item__rating">
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                        </div>
+
+                        <span class="home-product-item__sold">
+                          102 đã bán
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__band">Github</span>
+
+                        <span class="home-product-item__origin-name">Hoa Kỳ</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <span class="iconify" data-icon="emojione-monotone:heavy-check-mark"></span>
+                        <span class="home-product-item__favourite-liked">Yêu thích</span>
+                      </div>
+
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">50%</span>
+
+                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="grid__column-10-3 grid__column-10-2">
+                    <a href="#" class="home-product-item">
+                      <div class="home-product-item__img" style="
+                          background-image: url(https://cdn.shopify.com/s/files/1/0051/4802/products/coloring-book_882x882.png?v=1520917515);
+                        "></div>
+
+                      <h4 class="home-product-item__name">
+                        Sách hoạt động GitHub | Github / Cuốn sách 8,5 x 11 inch
+                        và có mười một trang giấy tô màu nghệ thuật
+                      </h4>
+
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">195.000 VND</span>
+
+                        <span class="home-product-item__price-current">
+                          126.750 VND
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like home-product-item__like-liked">
+                          <span class="home-product-item__like-empty iconify" data-icon="bi:heart"></span>
+                          <span class="home-product-item__like-fill iconify" data-icon="noto:red-heart"></span>
+                        </span>
+
+                        <div class="home-product-item__rating">
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                        </div>
+
+                        <span class="home-product-item__sold"> 62 đã bán </span>
+                      </div>
+
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__band">Github</span>
+
+                        <span class="home-product-item__origin-name">Hoa Kỳ</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <span class="iconify" data-icon="emojione-monotone:heavy-check-mark"></span>
+                        <span class="home-product-item__favourite-liked">Yêu thích</span>
+                      </div>
+
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">35%</span>
+
+                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="grid__column-10-3 grid__column-10-2">
+                    <a href="#" class="home-product-item">
+                      <div class="home-product-item__img" style="
+                          background-image: url(https://cdn.shopify.com/s/files/1/0051/4802/products/WebShop_Raglan_Youth_Octocat_2.0_882x882.jpg?v=1629728770);
+                        "></div>
+
+                      <h4 class="home-product-item__name">
+                        Áo phông Octocat 2.0 Raglan | Github / Áo phông dài tay
+                        thoáng mát mềm mại / Size đầy đủ
+                      </h4>
+
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">460.000 VND</span>
+
+                        <span class="home-product-item__price-current">
+                          360.000 VND
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <span class="home-product-item__like-empty iconify" data-icon="bi:heart"></span>
+                          <span class="home-product-item__like-fill iconify" data-icon="noto:red-heart"></span>
+                        </span>
+
+                        <div class="home-product-item__rating">
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                        </div>
+
+                        <span class="home-product-item__sold"> 99 đã bán </span>
+                      </div>
+
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__band">Github</span>
+
+                        <span class="home-product-item__origin-name">Hoa Kỳ</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <span class="iconify" data-icon="emojione-monotone:heavy-check-mark"></span>
+                        <span class="home-product-item__favourite-liked">Yêu thích</span>
+                      </div>
+
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">20%</span>
+
+                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="grid__column-10-3 grid__column-10-2">
+                    <a href="#" class="home-product-item">
+                      <div class="home-product-item__img" style="
+                          background-image: url(https://cdn.shopify.com/s/files/1/0051/4802/products/Webshop_Hoodie_Universe2021_Front_882x882.jpg?v=1634847384);
+                        "></div>
+
+                      <h4 class="home-product-item__name">
+                        Áo Hoodie 2021 | Github / Mùa đông ấm áp với chất liệu
+                        vải cao cấp / Full Size
+                      </h4>
+
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">990.000 VND</span>
+
+                        <span class="home-product-item__price-current">
+                          890.000 VND
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like home-product-item__like-liked">
+                          <span class="home-product-item__like-empty iconify" data-icon="bi:heart"></span>
+                          <span class="home-product-item__like-fill iconify" data-icon="noto:red-heart"></span>
+                        </span>
+
+                        <div class="home-product-item__rating">
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                        </div>
+
+                        <span class="home-product-item__sold">
+                          200 đã bán
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__band">Github</span>
+
+                        <span class="home-product-item__origin-name">Hoa Kỳ</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <span class="iconify" data-icon="emojione-monotone:heavy-check-mark"></span>
+                        <span class="home-product-item__favourite-liked">Yêu thích</span>
+                      </div>
+
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">40%</span>
+
+                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="grid__column-10-3 grid__column-10-2">
+                    <a href="#" class="home-product-item">
+                      <div class="home-product-item__img" style="
+                          background-image: url(https://cdn.shopify.com/s/files/1/0051/4802/products/final_thumbnail_stickers_9a19975d-fda0-4ed7-a8fa-86e71ca41df1_882x882.jpg?v=1525938541);
+                        "></div>
+
+                      <h4 class="home-product-item__name">
+                        50 nhãn dán các loại | Github / Độc quyền
+                      </h4>
+
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">280.000 VND</span>
+
+                        <span class="home-product-item__price-current">
+                          140.000 VND
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <span class="home-product-item__like-empty iconify" data-icon="bi:heart"></span>
+                          <span class="home-product-item__like-fill iconify" data-icon="noto:red-heart"></span>
+                        </span>
+
+                        <div class="home-product-item__rating">
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="iconify" data-icon="clarity:star-solid"></span>
+                          <span class="iconify" data-icon="clarity:star-solid"></span>
+                        </div>
+
+                        <span class="home-product-item__sold">
+                          109 đã bán
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__band">Github</span>
+
+                        <span class="home-product-item__origin-name">Hoa Kỳ</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <span class="iconify" data-icon="emojione-monotone:heavy-check-mark"></span>
+                        <span class="home-product-item__favourite-liked">Yêu thích</span>
+                      </div>
+
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">50%</span>
+
+                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="grid__column-10-3 grid__column-10-2">
+                    <a href="#" class="home-product-item">
+                      <div class="home-product-item__img" style="
+                          background-image: url(https://cdn.shopify.com/s/files/1/0051/4802/products/Gold_Octocat_882x882.png?v=1571378287);
+                        "></div>
+
+                      <h4 class="home-product-item__name">
+                        Tượng Tentocat | Github / Màu vàng sang trọng, mag vể
+                        đpej có 102
+                      </h4>
+
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">645.000 VND</span>
+
+                        <span class="home-product-item__price-current">
+                          425.000 VND
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like home-product-item__like-liked">
+                          <span class="home-product-item__like-empty iconify" data-icon="bi:heart"></span>
+                          <span class="home-product-item__like-fill iconify" data-icon="noto:red-heart"></span>
+                        </span>
+
+                        <div class="home-product-item__rating">
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                        </div>
+
+                        <span class="home-product-item__sold">
+                          100 đã bán
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__band">Github</span>
+
+                        <span class="home-product-item__origin-name">Hoa Kỳ</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <span class="iconify" data-icon="emojione-monotone:heavy-check-mark"></span>
+                        <span class="home-product-item__favourite-liked">Yêu thích</span>
+                      </div>
+
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">34%</span>
+
+                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="grid__column-10-3 grid__column-10-2">
+                    <a href="#" class="home-product-item">
+                      <div class="home-product-item__img" style="
+                          background-image: url(https://cdn.shopify.com/s/files/1/0051/4802/products/gh_yubikey_10_882x882.jpg?v=1629778169);
+                        "></div>
+
+                      <h4 class="home-product-item__name">
+                        USB GitHub YubiKey | Yubikeys mang thương hiệu
+                        Invertocat / Sản xuất đặc biệt dành cho những người hâm
+                        mộ GitHub chỉ trong một thời gian giới hạn!
+                      </h4>
+
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.200.000 VND</span>
+
+                        <span class="home-product-item__price-current">
+                          1.600.000 VND
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like home-product-item__like-liked">
+                          <span class="home-product-item__like-empty iconify" data-icon="bi:heart"></span>
+                          <span class="home-product-item__like-fill iconify" data-icon="noto:red-heart"></span>
+                        </span>
+
+                        <div class="home-product-item__rating">
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                        </div>
+
+                        <span class="home-product-item__sold"> 55 đã bán </span>
+                      </div>
+
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__band">Github</span>
+
+                        <span class="home-product-item__origin-name">Hoa Kỳ</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <span class="iconify" data-icon="emojione-monotone:heavy-check-mark"></span>
+                        <span class="home-product-item__favourite-liked">Yêu thích</span>
+                      </div>
+
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">10%</span>
+
+                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="grid__column-10-3 grid__column-10-2">
+                    <a href="#" class="home-product-item">
+                      <div class="home-product-item__img" style="
+                          background-image: url(https://cdn.shopify.com/s/files/1/0051/4802/products/coasters-atom_fill_882x882.png?v=1638999401);
+                        "></div>
+
+                      <h4 class="home-product-item__name">
+                        Tấm lót Atom | Github / Kiểu dáng sành điệu trên mọi bề
+                        mặt và dưới mọi loại đồ uống.
+                      </h4>
+
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">180.000 VND</span>
+
+                        <span class="home-product-item__price-current">
+                          100.000 VND
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <span class="home-product-item__like-empty iconify" data-icon="bi:heart"></span>
+                          <span class="home-product-item__like-fill iconify" data-icon="noto:red-heart"></span>
+                        </span>
+
+                        <div class="home-product-item__rating">
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="iconify" data-icon="clarity:star-solid"></span>
+                        </div>
+
+                        <span class="home-product-item__sold"> 35 đã bán </span>
+                      </div>
+
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__band">Github</span>
+
+                        <span class="home-product-item__origin-name">Hoa Kỳ</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <span class="iconify" data-icon="emojione-monotone:heavy-check-mark"></span>
+                        <span class="home-product-item__favourite-liked">Yêu thích</span>
+                      </div>
+
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">43%</span>
+
+                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="grid__column-10-3 grid__column-10-2">
+                    <a href="#" class="home-product-item">
+                      <div class="home-product-item__img" style="
+                          background-image: url(https://cdn.shopify.com/s/files/1/0051/4802/products/LongSleeveCrew_Hypnosquirrel_Black_1_882x882.jpg?v=1631560997);
+                        "></div>
+
+                      <h4 class="home-product-item__name">
+                        Áo phông HypnoSquirrel | Github / Áo phông dài tay màu
+                        đen hoặc trắng nhẹ
+                      </h4>
+
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.200.000 VND</span>
+
+                        <span class="home-product-item__price-current">
+                          540.000 VND
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like home-product-item__like-liked">
+                          <span class="home-product-item__like-empty iconify" data-icon="bi:heart"></span>
+                          <span class="home-product-item__like-fill iconify" data-icon="noto:red-heart"></span>
+                        </span>
+
+                        <div class="home-product-item__rating">
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="iconify" data-icon="clarity:star-solid"></span>
+                        </div>
+
+                        <span class="home-product-item__sold"> 92 đã bán </span>
+                      </div>
+
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__band">Github</span>
+
+                        <span class="home-product-item__origin-name">Hoa Kỳ</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <span class="iconify" data-icon="emojione-monotone:heavy-check-mark"></span>
+                        <span class="home-product-item__favourite-liked">Yêu thích</span>
+                      </div>
+
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">45%</span>
+
+                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="grid__column-10-3 grid__column-10-2">
+                    <a href="#" class="home-product-item">
+                      <div class="home-product-item__img" style="
+                          background-image: url(https://cdn.shopify.com/s/files/1/0051/4802/products/Proof_16761_SP12_GHB_Black-1024x1024_882x882.jpg?v=1629997457);
+                        "></div>
+
+                      <h4 class="home-product-item__name">
+                        Mũ len Invertocat Beanie | Github / Đủ loại màu sắc phù
+                        hợp với mùa đông lạnh giá.
+                      </h4>
+
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">499.000 VND</span>
+
+                        <span class="home-product-item__price-current">
+                          425.000 VND
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <span class="home-product-item__like-empty iconify" data-icon="bi:heart"></span>
+                          <span class="home-product-item__like-fill iconify" data-icon="noto:red-heart"></span>
+                        </span>
+
+                        <div class="home-product-item__rating">
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="iconify" data-icon="clarity:star-solid"></span>
+                        </div>
+
+                        <span class="home-product-item__sold"> 25 đã bán </span>
+                      </div>
+
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__band">Github</span>
+
+                        <span class="home-product-item__origin-name">Hoa Kỳ</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <span class="iconify" data-icon="emojione-monotone:heavy-check-mark"></span>
+                        <span class="home-product-item__favourite-liked">Yêu thích</span>
+                      </div>
+
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">21%</span>
+
+                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="grid__column-10-3 grid__column-10-2">
+                    <a href="#" class="home-product-item">
+                      <div class="home-product-item__img" style="
+                          background-image: url(https://cdn.shopify.com/s/files/1/0051/4802/products/Webshop_Joggers_Invertocat_Black_1_882x882.jpg?v=1636670508);
+                        "></div>
+
+                      <h4 class="home-product-item__name">
+                        Quần Invertocat Joggers | Github / Cực phong cách thích
+                        hợp mọi người
+                      </h4>
+
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.400.000 VND</span>
+
+                        <span class="home-product-item__price-current">
+                          1.199.000 VND
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like home-product-item__like-liked">
+                          <span class="home-product-item__like-empty iconify" data-icon="bi:heart"></span>
+                          <span class="home-product-item__like-fill iconify" data-icon="noto:red-heart"></span>
+                        </span>
+
+                        <div class="home-product-item__rating">
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                        </div>
+
+                        <span class="home-product-item__sold"> 42 đã bán </span>
+                      </div>
+
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__band">Github</span>
+
+                        <span class="home-product-item__origin-name">Hoa Kỳ</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <span class="iconify" data-icon="emojione-monotone:heavy-check-mark"></span>
+                        <span class="home-product-item__favourite-liked">Yêu thích</span>
+                      </div>
+
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">34%</span>
+
+                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="grid__column-10-3 grid__column-10-2">
+                    <a href="#" class="home-product-item">
+                      <div class="home-product-item__img" style="
+                          background-image: url(https://cdn.shopify.com/s/files/1/0051/4802/products/stickers_atom-electron_882x882.png?v=1520901878);
+                        "></div>
+
+                      <h4 class="home-product-item__name">
+                        Nhãn dán nguyên tử + Electron | Github
+                      </h4>
+
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">120.000 VND</span>
+
+                        <span class="home-product-item__price-current">
+                          60.000 VND
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <span class="home-product-item__like-empty iconify" data-icon="bi:heart"></span>
+                          <span class="home-product-item__like-fill iconify" data-icon="noto:red-heart"></span>
+                        </span>
+
+                        <div class="home-product-item__rating">
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="home-product-item__star-gold iconify" data-icon="clarity:star-solid"></span>
+                          <span class="iconify" data-icon="clarity:star-solid"></span>
+                        </div>
+
+                        <span class="home-product-item__sold">
+                          102 đã bán
+                        </span>
+                      </div>
+
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__band">Github</span>
+
+                        <span class="home-product-item__origin-name">Hoa Kỳ</span>
+                      </div>
+
+                      <div class="home-product-item__favourite">
+                        <span class="iconify" data-icon="emojione-monotone:heavy-check-mark"></span>
+                        <span class="home-product-item__favourite-liked">Yêu thích</span>
+                      </div>
+
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">50%</span>
+
+                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <ul class="pagination home-product__pagination">
+                <li class="pagination-item">
+                  <a href="" class="pagination-item__link">
+                    <span class="pagination-item__icon iconify" data-icon="ep:arrow-left-bold"></span>
+                  </a>
+                </li>
+
+                <li class="pagination-item pagination-item--active">
+                  <a href="" class="pagination-item__link">1</a>
+                </li>
+
+                <li class="pagination-item">
+                  <a href="" class="pagination-item__link">2</a>
+                </li>
+
+                <li class="pagination-item">
+                  <a href="" class="pagination-item__link">3</a>
+                </li>
+
+                <li class="pagination-item">
+                  <a href="" class="pagination-item__link">4</a>
+                </li>
+
+                <li class="pagination-item">
+                  <a href="" class="pagination-item__link">5</a>
+                </li>
+
+                <li class="pagination-item">
+                  <a href="" class="pagination-item__link">...</a>
+                </li>
+
+                <li class="pagination-item">
+                  <a href="" class="pagination-item__link">15</a>
+                </li>
+
+                <li class="pagination-item">
+                  <a href="" class="pagination-item__link">
+                    <span class="pagination-item__icon iconify" data-icon="ep:arrow-right-bold"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <==== Footer ====> -->
+      <footer class="footer">
+        <div class="grid wide">
+          <div class="grid__row">
+            <div class="grid__column-2-4">
+              <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="" class="footer-item__link"> Trung tâm hỗ trợ </a>
+                </li>
+
+                <li class="footer-item footer-item--email">
+                  Email:
+                  <a href="mailto:luanthanh0322@gmail.com" class="footer-item__link">
+                    luanthanh0322@gmail.com
+                  </a>
+                </li>
+
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">
+                    Hướng dẫn sử dụng mua hàng
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="grid__column-2-4">
+              <h3 class="footer__heading">Về Github Shop</h3>
+
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Giới thiệu về GitHub</a>
+                </li>
+
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Tuyển dụng</a>
+                </li>
+
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Điều khoản tại GitHub Shop</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="grid__column-2-4">
+              <h3 class="footer__heading">Danh mục</h3>
+
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Nhãn dán | GitHub</a>
+                </li>
+
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Sưu tầm | GitHub</a>
+                </li>
+
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Đồ gia dụng | GitHub</a>
+                </li>
+
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Áo phông | GitHub</a>
+                </li>
+
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Áo hoodie | GitHub</a>
+                </li>
+
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Mũ nón | GitHub</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="grid__column-2-4">
+              <h3 class="footer__heading">Theo dõi</h3>
+
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="https://www.facebook.com/LuanT85" class="footer-item__link">
+                    <span class="footer-item__icon iconify" data-icon="akar-icons:facebook-fill"></span>
+                    Facebook</a>
+                </li>
+
+                <li class="footer-item">
+                  <a href="https://github.com/Luan-Thanh/Github-Shop" class="footer-item__link">
+                    <span class="footer-item__icon iconify" data-icon="akar-icons:github-fill"></span>
+                    Github</a>
+                </li>
+
+                <li class="footer-item">
+                  <a href="https://www.linkedin.com/in/lu%C3%A2n-th%C3%A0nh-596038229/" class="footer-item__link">
+                    <span class="footer-item__icon iconify" data-icon="entypo-social:linkedin-with-circle"></span>
+                    LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="grid__column-2-4">
+              <h3 class="footer__heading">Tải ứng dụng GitHub</h3>
+
+              <div class="footer__download">
+                <img src="./assets/img/QR/qrcode_CHPlay.png" alt="Ứng dụng Github" class="footer__download-qr" />
+
+                <div class="footer__download-apps">
+                  <a href="" class="footer__download-app-link">
+                    <img src="./assets/img/Download/app_store.png" alt="App Store" class="footer__download-app-img" />
+                  </a>
+
+                  <a href="" class="footer__download-app-link">
+                    <img src="./assets/img/Download/CH_Play.png" alt="Google Play" class="footer__download-app-img" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bootom">
+          <div class="grid wide">
+            <p class="footer-text">
+              <span class="footer-icon iconify" data-icon="akar-icons:github-fill"></span>
+              © 2021 GitHub, Inc.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- <==== Modal ====> -->
+    <!-- Display: None -->
+    <div id="modals" class="modal">
+      <div class="modal__overlay"></div>
+
+      <div class="modal__body">
+        <!-- ==== Registers form ====-->
+        <div id="resgister" class="auth-form resgister-form">
+          <div class="auth-form__container">
+            <header class="auth-form__header">
+              <span class="iconify auth-form--logo" data-icon="octicon:mark-github-16"></span>
+
+              <h3 class="auth-form__heading">Đăng Ký Vào GitHub Shop</h3>
+
+              <span class="auth-form--close iconify" data-icon="eva:close-fill"></span>
+            </header>
+
+            <form action="" class="auth-form__form">
+              <div class="auth-form__group">
+                <input type="email" class="auth-form__input outline-input" required placeholder=" " />
+
+                <label for="auth-form--email" class="auth-form__label">
+                  Nhập địa chỉ email của bạn
+                </label>
+              </div>
+
+              <div class="auth-form__group">
+                <input type="password" required class="auth-form__input outline-input" placeholder=" " />
+
+                <label for="auth-form--password" class="auth-form__label">
+                  Tạo một mật khẩu
+                </label>
+              </div>
+
+              <div class="auth-form__group">
+                <input type="text" name="username" required class="auth-form__input outline-input" placeholder=" " />
+
+                <label for="auth-form__quantity" class="auth-form__label">
+                  Nhập tên người dùng
+                </label>
+              </div>
+              <button class="btn btn--primary">Đăng Ký</button>
+            </form>
+            <div class="auth-form__policy">
+              <div class="auth-form__text btn--no-hover">
+                Bạn đã có tài khoản?
+              </div>
+              <span class="auth-form__sparate"> </span>
+              <div>
+                <a href="" class="auth-form__switch-btn text-link">
+                  Đăng Nhập</a>
+              </div>
+            </div>
+
+            <div class="auth-form__aside">
+              <ul class="auth-form__aside-list">
+                <li class="auth-form__aside-item">
+                  <a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" class="text-link">Điều
+                    kiện
+                  </a>
+                </li>
+
+                <li class="auth-form__aside-item">
+                  <a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" class="text-link">Sự
+                    riêng tư</a>
+                </li>
+
+                <li class="auth-form__aside-item">
+                  <a href="https://github.com/security" class="text-link">Bảo vệ</a>
+                </li>
+
+                <li class="auth-form__aside-item">
+                  <a href="https://www.facebook.com/luan.thanh.2203" class="text-link back-color">Liên hệ với GitHub
+                    Shop</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <footer class="auth-form__socials">
+            <a href="" required class="btn btn--width-icon btn__icon-facebook">
+              <span class="iconify auth-form__icon" data-icon="brandico:facebook-rect"></span>
+              Kết nối với Facebook
+            </a>
+
+            <a href="" required class="btn btn--width-icon btn__icon-google">
+              <span class="auth-form__icon iconify" data-icon="flat-color-icons:google"></span>
+              Kết nối với Google
+            </a>
+          </footer>
+        </div>
+
+        <!-- ==== Login form ====-->
+        <div id="login" class="auth-form login-form">
+          <div class="auth-form__container">
+            <header class="auth-form__header">
+              <span class="iconify auth-form--logo" data-icon="octicon:mark-github-16"></span>
+
+              <h3 class="auth-form__heading">Đăng Nhập Vào GitHub Shop</h3>
+
+              <span class="auth-form--close iconify" data-icon="eva:close-fill"></span>
+            </header>
+
+            <form action="" class="auth-form__form">
+              <div class="auth-form__group">
+                <input type="email" class="auth-form__input outline-input" required placeholder=" " />
+
+                <label for="auth-form--email" class="auth-form__label">
+                  Tên người dùng hoặc Email
+                </label>
+              </div>
+
+              <div class="auth-form__group">
+                <input type="password" required class="auth-form__input outline-input" placeholder=" " />
+
+                <label for="auth-form--password" class="auth-form__label">
+                  Tạo một mật khẩu
+                </label>
+              </div>
+
+              <button class="btn btn--primary">Đăng Nhập</button>
+            </form>
+            <div class="auth-form__policy">
+              <div class="auth-form__text">
+                <a href="" class="back-color text-link">Quên mật khẩu?</a>
+              </div>
+              <span class="auth-form__sparate"> </span>
+              <div>
+                <a href="" class="auth-form__switch-btn text-link">Đăng Ký</a>
+              </div>
+            </div>
+
+            <div class="auth-form__aside">
+              <ul class="auth-form__aside-list">
+                <li class="auth-form__aside-item">
+                  <a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" class="text-link">Điều
+                    kiện
+                  </a>
+                </li>
+
+                <li class="auth-form__aside-item">
+                  <a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" class="text-link">Sự
+                    riêng tư</a>
+                </li>
+
+                <li class="auth-form__aside-item">
+                  <a href="https://github.com/security" class="text-link">Bảo vệ</a>
+                </li>
+
+                <li class="auth-form__aside-item">
+                  <a href="https://www.facebook.com/luan.thanh.2203" class="text-link back-color">Liên hệ với GitHub
+                    Shop</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <footer class="auth-form__socials">
+            <a href="" required class="btn btn--width-icon btn__icon-facebook">
+              <span class="iconify auth-form__icon" data-icon="brandico:facebook-rect"></span>
+              Kết nối với Facebook
+            </a>
+
+            <a href="" required class="btn btn--width-icon btn__icon-google">
+              <span class="auth-form__icon iconify" data-icon="flat-color-icons:google"></span>
+              Kết nối với Google
+            </a>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tablet-Mobide -->
+    <!-- <div class="tablet-mobile">
+      <i> Hiện tại CHƯA HỔ TRỢ cho Mobile</i>
+    </div>
+  </body> -->
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <script src="./assets/script/main.js"></script>
+
+</html>
