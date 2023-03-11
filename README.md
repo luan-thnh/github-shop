@@ -1,3 +1,3 @@
 # github-shop
 
-https://luan-thanhh.github.io/github-shop/
+https://luan-thnh.github.io/github-shop/
